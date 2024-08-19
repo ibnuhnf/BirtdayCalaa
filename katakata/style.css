@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(/media/Desain\ tanpa\ judul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    width: 680px;
+    height: 350px;
+    border: 1px solid rgb(232, 232, 232 , 0.28);
+    padding: 40px;
+    position: relative;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    text-shadow: 0 0 12px rgb(0, 0, 0);
+    box-shadow: 0 8px 25px 0 rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.tombol {
+    background: none;
+    position: fixed;
+    width: 230px;
+    height: 70px;
+    bottom: 0;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.next{
+    position: relative;
+    width: 90px;
+    height: 60px;
+    bottom: 0;
+    background: transparent;
+    border: 2px solid rgba(255, 163, 218, 0.45);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 35px rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+.back{
+    position: relative;
+    width: 90px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid rgba(255, 163, 218, 0.45);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 35px rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.btn-back {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    /* margin: 4px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
